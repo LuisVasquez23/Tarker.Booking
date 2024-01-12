@@ -1,0 +1,9 @@
+﻿namespace Tarker.Booking.Application.DatatBase.Customer.Commands.CreateCustomer
+{
+    public class CreateCustomerModel 
+    {
+        public string FullName { get; set; } = string.Empty;
+        public string DocumentNumber { get; set; } = string.Empty;
+
+    }
+}
