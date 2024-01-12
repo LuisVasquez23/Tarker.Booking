@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,13 +18,23 @@ namespace Tarker.Booking.Application.DatatBase.Booking.Queries.GetBookingByType
             _databaseService = databaseService;
         }
 
-        public async Task<GetBookingByTypeModel> Execute(string type)
+        public async Task<List<GetBookingByTypeModel>> Execute(string type)
         {
 
             var entity = await (
                         from booking in _databaseService.Booking
-                        join customer in _databaseService.Customer on booking
-                    );
+                        join customer in _databaseService.Customer on booking.CustomerId equals customer.CustomerId
+                        where booking.Type == type
+                        select new GetBookingByTypeModel
+                        {
+                            RegisterDate = booking.RegisterDate,
+                            Code = booking.Code,
+                            Type = booking.Type,
+                            CustomerFullName = customer.FullName,
+                            CustomerDocumentNumber = customer.DocumentNumber
+                        }).ToListAsync();
+
+            return entity;
 
         }
 

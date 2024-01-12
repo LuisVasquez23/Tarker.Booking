@@ -140,3 +140,4 @@ C:\Users\luis\Desktop\learning\c#\Tarker.Booking\src\Tarker.Booking.Api\bin\Debu
 C:\Users\luis\Desktop\learning\c#\Tarker.Booking\src\Tarker.Booking.Api\bin\Debug\net8.0\Tarker.Booking.Common.pdb
 C:\Users\luis\Desktop\learning\c#\Tarker.Booking\src\Tarker.Booking.Api\bin\Debug\net8.0\Tarker.Booking.External.pdb
 C:\Users\luis\Desktop\learning\c#\Tarker.Booking\src\Tarker.Booking.Api\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\luis\Desktop\learning\c#\Tarker.Booking\src\Tarker.Booking.Api\obj\Debug\net8.0\Tarker.Booking.Api.sourcelink.json

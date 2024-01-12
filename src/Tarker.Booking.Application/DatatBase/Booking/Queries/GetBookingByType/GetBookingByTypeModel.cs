@@ -11,5 +11,7 @@ namespace Tarker.Booking.Application.DatatBase.Booking.Queries.GetBookingByType
         public DateTime RegisterDate { get; set; }
         public string Code { get; set; } = string.Empty;
         public string Type { get; set; } = string.Empty;
+        public string CustomerFullName { get; set; } = string.Empty;
+        public string CustomerDocumentNumber { get; set; } = string.Empty;
     }
 }

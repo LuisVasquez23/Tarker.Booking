@@ -13,3 +13,4 @@ C:\Users\luis\Desktop\learning\c#\Tarker.Booking\src\Tarker.Booking.Application\
 C:\Users\luis\Desktop\learning\c#\Tarker.Booking\src\Tarker.Booking.Application\obj\Debug\net8.0\refint\Tarker.Booking.Application.dll
 C:\Users\luis\Desktop\learning\c#\Tarker.Booking\src\Tarker.Booking.Application\obj\Debug\net8.0\Tarker.Booking.Application.pdb
 C:\Users\luis\Desktop\learning\c#\Tarker.Booking\src\Tarker.Booking.Application\obj\Debug\net8.0\ref\Tarker.Booking.Application.dll
+C:\Users\luis\Desktop\learning\c#\Tarker.Booking\src\Tarker.Booking.Application\obj\Debug\net8.0\Tarker.Booking.Application.sourcelink.json

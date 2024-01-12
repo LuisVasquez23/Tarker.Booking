@@ -15,3 +15,4 @@ C:\Users\luis\Desktop\learning\c#\Tarker.Booking\src\Tarker.Booking.Persistence\
 C:\Users\luis\Desktop\learning\c#\Tarker.Booking\src\Tarker.Booking.Persistence\obj\Debug\net8.0\refint\Tarker.Booking.Persistence.dll
 C:\Users\luis\Desktop\learning\c#\Tarker.Booking\src\Tarker.Booking.Persistence\obj\Debug\net8.0\Tarker.Booking.Persistence.pdb
 C:\Users\luis\Desktop\learning\c#\Tarker.Booking\src\Tarker.Booking.Persistence\obj\Debug\net8.0\ref\Tarker.Booking.Persistence.dll
+C:\Users\luis\Desktop\learning\c#\Tarker.Booking\src\Tarker.Booking.Persistence\obj\Debug\net8.0\Tarker.Booking.Persistence.sourcelink.json
